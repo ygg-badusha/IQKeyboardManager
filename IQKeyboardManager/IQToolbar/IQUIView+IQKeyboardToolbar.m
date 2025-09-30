@@ -327,6 +327,7 @@ NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
         
         //Title button
         toolbar.titleBarButton.title = titleText;
+        toolbar.titleBarButton.customView.frame = CGRectZero;
         [items addObject:toolbar.titleBarButton];
         
         //Flexible space
